@@ -1,5 +1,7 @@
 # import gensim.downloader as api
+from ast import Pass
 from dialogue_config import all_slots
+import requests
 
 
 class NLU:
@@ -25,6 +27,20 @@ class NLU:
 
     def getIntent(self, userInput):
         pass
+
+
+    def use_rasa(self, userInput):
+        URL = "http://localhost:5005/model/parse"
+        data = {'text': userInput}
+        
+        response = requests.post(url=URL, json=data)
+
+        resBody = response.json()['intent']
+
+        semantic_frame = {'intent': "request", 'request_slots': {resBody['name']: 'UNK'}, 'inform_slots':{}}
+        print("Rasa semantic frame: ", semantic_frame)
+        
+        return semantic_frame
 
 
     def getRequestSlots(self, userInput):

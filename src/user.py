@@ -5,6 +5,7 @@ from nlu import NLU
 class User:
     def __init__(self, constants):
         self.max_round = constants['run']['max_round_num']
+        self.use_rasa = constants['run']['use_rasa']
         self.nlu = NLU()
 
     
@@ -17,7 +18,12 @@ class User:
     def _use_nlu(self):
         while True:
             input_string = input("\x1b[93m" + "User input ==> " + "\x1b[0m")
-            semanticFrame =  self.nlu.getSemanticFrame(input_string)
+
+            if self.use_rasa:
+                semanticFrame = self.nlu.use_rasa(input_string)
+            else:
+                semanticFrame =  self.nlu.getSemanticFrame(input_string)
+            
             print("\x1b[93m" + f"User semantic frame: {semanticFrame}" + "\x1b[0m")
             self.user_last_response = semanticFrame
             return semanticFrame
