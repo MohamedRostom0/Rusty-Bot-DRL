@@ -5,8 +5,8 @@
     "user_goals": "data/movie_user_goals.pkl"
   },
   "run": {
-    "use_rasa": true
-,    "usersim": false,
+    "use_rasa": true,
+    "usersim": false,
     "emc_enabled": false,
     "warmup_mem": 500,
     "num_ep_run": 100,
