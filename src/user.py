@@ -29,7 +29,7 @@ class User:
                 input_string = random_question['text']
                 print(f"Dataset => {input_string}")
 
-                expected_semantic_frame = {'intent': '', 'inform_slots': {}, 'request_slots': {}}
+                expected_semantic_frame = {'intent': 'request', 'inform_slots': {}, 'request_slots': {}}
                 expected_semantic_frame['request_slots'][random_question['intent']] = 'UNK'
 
             else:
