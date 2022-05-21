@@ -28,6 +28,10 @@ class User:
                 random_question = random.choice(self.data) 
                 input_string = random_question['text']
                 print(f"Dataset => {input_string}")
+
+                expected_semantic_frame = {'intent': '', 'inform_slots': {}, 'request_slots': {}}
+                expected_semantic_frame['request_slots'][random_question['intent']] = 'UNK'
+
             else:
                 input_string = input("\x1b[93m" + "User input ==> " + "\x1b[0m")
 
@@ -37,7 +41,12 @@ class User:
                 semanticFrame =  self.nlu.getSemanticFrame(input_string)
             
             print("\x1b[93m" + f"User semantic frame: {semanticFrame}" + "\x1b[0m")
-            self.user_last_response = semanticFrame
+
+            if self.use_dataset:
+                self.user_last_response = expected_semantic_frame
+            else:
+                self.user_last_response = semanticFrame
+
             return semanticFrame
 
 

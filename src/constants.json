@@ -8,9 +8,9 @@
     "use_rasa": true,
     "usersim": false,
     "emc_enabled": false,
-    "use_dataset": false,
+    "use_dataset": true,
     "warmup_mem": 500,
-    "num_ep_run": 100,
+    "num_ep_run": 10,
     "train_freq": 100,
     "max_round_num": 2,
     "success_rate_threshold": 0.3
