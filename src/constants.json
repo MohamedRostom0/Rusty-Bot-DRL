@@ -8,6 +8,7 @@
     "use_rasa": true,
     "usersim": false,
     "emc_enabled": false,
+    "use_dataset": false,
     "warmup_mem": 500,
     "num_ep_run": 100,
     "train_freq": 100,

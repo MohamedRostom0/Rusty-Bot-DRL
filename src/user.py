@@ -1,12 +1,19 @@
 from dialogue_config import FAIL, SUCCESS, usersim_intents, all_slots
 from utils import reward_function
 from nlu import NLU
+import json, random
 
 class User:
     def __init__(self, constants):
         self.max_round = constants['run']['max_round_num']
         self.use_rasa = constants['run']['use_rasa']
+        self.use_dataset = constants['run']['use_dataset']
         self.nlu = NLU()
+
+        if self.use_dataset:
+            with open('dataset.json') as f:
+                dataset = json.load(f)
+                self.data = dataset['data']
 
     
     def reset(self):
@@ -17,7 +24,12 @@ class User:
     
     def _use_nlu(self):
         while True:
-            input_string = input("\x1b[93m" + "User input ==> " + "\x1b[0m")
+            if self.use_dataset:
+                random_question = random.choice(self.data) 
+                input_string = random_question['text']
+                print(f"Dataset => {input_string}")
+            else:
+                input_string = input("\x1b[93m" + "User input ==> " + "\x1b[0m")
 
             if self.use_rasa:
                 semanticFrame = self.nlu.use_rasa(input_string)

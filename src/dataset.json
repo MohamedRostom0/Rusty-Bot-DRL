@@ -1,0 +1,264 @@
+{
+    "data": [
+        {
+            "text": "How to study for midterms?",
+            "intent": "study_guide_exams"
+        },
+        {
+            "text": "How to study for finals?",
+            "intent": "study_guide_exams"
+        },
+        {
+            "text": "I need help studying for finals?",
+            "intent": "study_guide_exams"
+        },
+        {
+            "text": "I need assistance studying for midterms?",
+            "intent": "study_guide_exams"
+        },
+        {
+            "text": "How to pass my midterms?",
+            "intent": "study_guide_exams"
+        },
+        {
+            "text": "How to study for an exam?",
+            "intent": "study_guide_exams"
+        },
+        {
+            "text": "Is it important to study from textbooks?",
+            "intent": "study_guide_textbooks"
+        },
+        {
+            "text": "How to study from a textbook?",
+            "intent": "study_guide_textbooks"
+        },
+        {
+            "text": "Where to get textbooks to study from?",
+            "intent": "study_guide_textbooks"
+        },
+        {
+            "text": "Are textbooks hard to study from?",
+            "intent": "study_guide_textbooks"
+        },
+        {
+            "text": "How to study?",
+            "intent": "study_guide_general"
+        },
+        {
+            "text": "How to study in the guc?",
+            "intent": "study_guide_general"
+        },
+        {
+            "text": "How to achieve good grades?",
+            "intent": "study_guide_general"
+        },
+        {
+            "text": "Are there any studying tips?",
+            "intent": "study_guide_general"
+        },
+        {
+            "text": "Do you have any studying tips?",
+            "intent": "study_guide_general"
+        },
+        {
+            "text": "What is advising?",
+            "intent": "advising_general_info"
+        },
+        {
+            "text": "How a student becomes advising?",
+            "intent": "advising_general_info"
+        },
+        {
+            "text": "Do advising students have an advisor?",
+            "intent": "advising_general_info"
+        },
+        {
+            "text": "How to get out of probation?",
+            "intent": "probation_tips_to_getout"
+        },
+        {
+            "text": "Help me get out of probation?",
+            "intent": "probation_tips_to_getout"
+        },
+        {
+            "text": "Is it easy to get out of probation?",
+            "intent": "probation_tips_to_getout"
+        },
+        {
+            "text": "Can a probation student graduate on time?",
+            "intent": "probation_tips_to_getout"
+        },
+        {
+            "text": "Ant tips to leave probation?",
+            "intent": "probation_tips_to_getout"
+        },
+        {
+            "text": "What is probation?",
+            "intent": "probation"
+        },
+        {
+            "text": "Do probation students pay extra?",
+            "intent": "probation"
+        },
+        {
+            "text": "What is the gpa a student gets to become under probation?",
+            "intent": "probation"
+        },
+        {
+            "text": "What is the gpa needed to get out of probarion?",
+            "intent": "probation"
+        },
+        {
+            "text": "What is probation?",
+            "intent": "probation"
+        },
+        {
+            "text": "How attendance works in summer?",
+            "intent": "summer_attendance"
+        },
+        {
+            "text": "How many absences I get in summer?",
+            "intent": "summer_attendance"
+        },
+        {
+            "text": "Do I need to attend lectures in summer?",
+            "intent": "summer_attendance"
+        },
+        {
+            "text": "How many tutorials I can skip in summer?",
+            "intent": "summer_attendance"
+        },
+        {
+            "text": "What is the summer attendance policy?",
+            "intent": "summer_attendance"
+        },
+        {
+            "text": "how is the attendance calculated in summer?",
+            "intent": "summer_attendance"
+        },
+        {
+            "text": "What are the courses offered in summer?",
+            "intent": "summer_courses"
+        },
+        {
+            "text": "Is Math 301 offered in summer?",
+            "intent": "summer_courses"
+        },
+        {
+            "text": "What are summer courses rules?",
+            "intent": "summer_courses"
+        },
+        {
+            "text": "Where can I apply to a summer course?",
+            "intent": "summer_courses"
+        },
+        {
+            "text": "What are the courses offered in summer?",
+            "intent": "summer_courses"
+        },
+        {
+            "text": "How to apply for a course in summer?",
+            "intent": "summer_courses"
+        },
+        {
+            "text": "Who can take summer courses?",
+            "intent": "summer_courses"
+        },
+        {
+            "text": "Can any student take courses in summer?",
+            "intent": "summer_courses"
+        },
+        {
+            "text": "What are the courses offered in summer?",
+            "intent": "summer_courses"
+        },
+        {
+            "text": "How are summer courses graded?",
+            "intent": "summer_grading"
+        },
+        {
+            "text": "Is grading in summer different?",
+            "intent": "summer_grading"
+        },
+        {
+            "text": "How many rounds are offered in summer?",
+            "intent": "summer_general"
+        },
+        {
+            "text": "What is the maximum credt hours offered in summer?",
+            "intent": "summer_general"
+        },
+        {
+            "text": "How many rounds are offered in summer?",
+            "intent": "summer_general"
+        },
+        {
+            "text": "How long is a summer round ?",
+            "intent": "summer_general"
+        },
+        {
+            "text": "What is the the summer semester duration?",
+            "intent": "summer_general"
+        },
+        {
+            "text": "What clothes am I not allowed to wear?",
+            "intent": "guc_regulations_clothing"
+        },
+        {
+            "text": "Can I wear ripped jeans in GUC?",
+            "intent": "guc_regulations_clothing"
+        },
+        {
+            "text": "Can I wear cropped tops in GUC?",
+            "intent": "guc_regulations_clothing"
+        },
+        {
+            "text": "What are the clothes I can wear in GUC?",
+            "intent": "guc_regulations_clothing"
+        },
+        {
+            "text": "what are the general guc policies?",
+            "intent": "guc_regulations_general"
+        },
+        {
+            "text": "What are the rules I need to know?",
+            "intent": "guc_regulations_general"
+        },
+        {
+            "text": "What is the guc guidelines?",
+            "intent": "guc_regulations_general"
+        },
+        {
+            "text": "what are the guc regulations?",
+            "intent": "guc_regulations_general"
+        },
+        {
+            "text": "How to apply for semester abroad in Berlin?",
+            "intent": "guc_regulations_berlin"
+        },
+        {
+            "text": "Where to apply for Berlin semester abroad",
+            "intent": "guc_regulations_berlin"
+        },
+        {
+            "text": "What is the minimum number of students needed to open a class in GUC Berlin?",
+            "intent": "guc_regulations_berlin"
+        },
+        {
+            "text": "What is the guc attendance policy?",
+            "intent": "guc_regulations_attendance"
+        },
+        {
+            "text": "What many absences I can have?",
+            "intent": "guc_regulations_attendance"
+        },
+        {
+            "text": "How many tutorials I can miss in a semester?",
+            "intent": "guc_regulations_attendance"
+        },
+        {
+            "text": "How the attendance system works?",
+            "intent": "guc_regulations_attendance"
+        }
+    ]
+}
