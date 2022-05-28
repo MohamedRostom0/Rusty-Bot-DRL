@@ -82,7 +82,7 @@ def test_run():
 
             state = state_tracker.get_state(done)
 
-            print(f"Agent action: {agent_action}")
+            print('\x1b[6;30;42m' + f"Agent action: {agent_action}" + '\x1b[0m')
             print('\x1b[6;30;42m' + f"Agent Response ==> {all_responses[agent_action_index]}" + '\x1b[0m')
 
         print('Episode: {} Success: {} Reward: {}'.format(episode, success, ep_reward))
