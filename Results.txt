@@ -70,10 +70,39 @@ reference: https://datascience.stackexchange.com/questions/32246/q-learning-targ
 
 
 
+################################### New Intents ##########################
+
+############ Vanilla DQN with Fixed Q-targets ##############
+*) Model5:
+	Warmup = 500
+	Num_episodes = 10000
+	EMC = 15%
+	Training Frequency = 100
+	Maximum memory size = 5000
+
+	- Results:
+		training_history = ['Episode 1000 => Best success rate = 0.47', 'Episode 2000 => Best success rate = 0.65', 
+		'Episode 3000 => Best success rate = 0.7', 'Episode 4000 => Best success rate = 0.7',
+		 'Episode 5000 => Best success rate = 0.78', 'Episode 6000 => Best success rate = 0.82', 
+		 'Episode 7000 => Best success rate = 0.92', 'Episode 8000 => Best success rate = 0.92', 
+		 'Episode 9000 => Best success rate = 0.93', 'Episode 10000 => Best success rate = 0.95']
 
 
+*) Model6:
+	Warmup = 1000
+	Num_episodes = 15000
+	EMC = 15%
+	Training Frequency = 100
+	Maximum memory size = 5000
 
+	- Results:
+	training_history = ['Episode 1000 => Best success rate = 0.87', 'Episode 2000 => Best success rate = 0.91', 'Episode 3000 => Best success rate = 0.97',
+	 'Episode 4000 => Best success rate = 0.97', 'Episode 5000 => Best success rate = 0.99', 'Episode 6000 => Best success rate = 0.99',
+	  'Episode 7000 => Best success rate = 0.99', 'Episode 8000 => Best success rate = 0.99', 'Episode 9000 => Best success rate = 0.99', 
+	  'Episode 10000 => Best success rate = 0.99', 'Episode 11000 => Best success rate = 0.99', 'Episode 12000 => Best success rate = 0.99',
+	   'Episode 13000 => Best success rate = 1.0', 'Episode 14000 => Best success rate = 1.0', 'Episode 15000 => Best success rate = 1.0']
 
+	Test / 100 = 90% - 93% - 93%
 
 
 
