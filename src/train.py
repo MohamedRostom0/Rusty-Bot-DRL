@@ -121,7 +121,7 @@ def train_run():
         period_success_total += success
 
         # Record every 1000 eoisode results in history
-        if episode % 1000 == 0:
+        if episode % 500 == 0:
             training_history.append(f"Episode {episode} => Best success rate = {success_rate_best}")
 
         # Train

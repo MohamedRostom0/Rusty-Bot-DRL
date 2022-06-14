@@ -41,7 +41,7 @@ all_slots = ['nlu_fallback', 'cv_preparation', 'side_pjojects_importance', 'plag
 
 all_responses = [
 '\nSorry, can you repeat your question ?',
-'\nCV preparation tips',
+'\nPrepare your CV using a template, ex: www.flowcv.io \nAdd side projects and your extracuricular activites to substitute the lack of work experience',
 "\nHaving extra side projects for yourself definitely gives you a bonus while applying for jobs, but it's not a necessity.",
 "\nYou are not allowed to copy anything without explicit acknowledgement of the sources.\nStudents always have to acknowledge the source through: Quoting, Paraphrasing, General Indebtedness. Please note that copying the work of another student is no different from plagiarizing published sources.\nStudents who plagiarise work and students who knowingly allow their work to be plagiarised will be subject to penalties.\nPlease note that plagiarism seriously damages ability to pass exams and may result in serious cases in suspension or dismissal.",
 '\nA+ : 0.7\nA : 1.0\nA- : 1.3\nB+ : 1.7\nB : 2\nB- : 2.3\nC+ : 2.7\nC : 3.0\nC- : 3.3\nD+ : 3.7\nD : 4.0\nF : 5.0',
@@ -50,10 +50,10 @@ all_responses = [
 '\nEngineering, Applied Arts & Pharmacy: 3 months\nManagement, BI & Law: 1.5 Months',
 '\n1- Print out the internship form from Intranet, LINK.\n2- Have that form filled out, and signed by your internship supervisor.\n3- Either stamp the form, get a stamped certificate, or get an email from the domain of the company confirming your participation in an internship there.\n4- Write the report and zip it with the form and other documents, and submit them HERE.',
 '\nIn Spring and winter semesters, you must attend 75% of your Tutorials, Lecture does not have attendance.',
-"\nA minimum of 25 students are needed to open a group in Berlin.\n-Check Berlin Semester abroad time plan for admission and fees, LINK.",
+"\nOnly students with a minimum gpa of 3.0 and are not advising or probation\nA minimum of 25 students are needed to open a group in Berlin.\n-Check Berlin Semester abroad time plan for admission and fees, LINK.",
 '\nSolve previous years Exams made by the SAME Dr.\nFocus on content that you did not get examed in (Quizzes, midterm, assignments).',
 '\n1-Read lecture slides on the same day of the lecture. \n2-Every weekend, just have a look on the PAs of the next week. \n 3- Solve the PAs yourself just before te quiz.\n If you follow the above steps, you will only solve PAs once, and acheive a decent grade.',
-'\nadvising_general_info',
+'\nA student is Advising, if  he/she has less number of credit hours than the rest of their class.\nAn advising student has an Academic Advisor to help in planning schedule and courses per semester.',
 '\nFocus on high credit hours courses. \n- Overload on Credit hours as mush as you can, to be able to graduate with your colleagues.',
 '\nEach student under probation has an advisor to help them graduate as early as possible.\n A student is under probation if their GPA is greater than 3.7, to get out of it they need to improve their GPA which depends on their current situation.',
 '\nIn summer, you must attend 75% of your Lectures and Tutorials',

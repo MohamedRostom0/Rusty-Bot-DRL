@@ -1,6 +1,194 @@
 {
     "data": [
         {
+            "text": "How to prepare my cv?",
+            "intent": "cv_preparation"
+        },
+        {
+            "text": "How to make my cv?",
+            "intent": "cv_preparation"
+        },
+        {
+            "text": "Where can I have my cv reviewed?",
+            "intent": "cv_preparation"
+        },
+        {
+            "text": "I need help making my cv?",
+            "intent": "cv_preparation"
+        },
+        {
+            "text": "What information is important to write in the cv?",
+            "intent": "cv_preparation"
+        },
+        {
+            "text": "How does a good cv look like?",
+            "intent": "cv_preparation"
+        },
+        {
+            "text": "How to compensate for the lack of work experience in my cv?",
+            "intent": "cv_preparation"
+        },
+        {
+            "text": "Is it important to have side projects?",
+            "intent": "side_pjojects_importance"
+        },
+        {
+            "text": "What projects can I do in my free time?",
+            "intent": "side_pjojects_importance"
+        },
+        {
+            "text": "How to make value of my free time?",
+            "intent": "side_pjojects_importance"
+        },
+        {
+            "text": "Is it important to have side projects?",
+            "intent": "side_pjojects_importance"
+        },
+        {
+            "text": "What happens if I copy an assignment?",
+            "intent": "plagirism_policy"
+        },
+        {
+            "text": "Can I copy a project solution from an online resource?",
+            "intent": "plagirism_policy"
+        },
+        {
+            "text": "Is it plagirism to use online resources?",
+            "intent": "plagirism_policy"
+        },
+        {
+            "text": "Does having a conversation with a colleague about the project considered plagirism?",
+            "intent": "plagirism_policy"
+        },
+        {
+            "text": "What is plagirism?",
+            "intent": "plagirism_policy"
+        },
+        {
+            "text": "What is the gpa equivilant to an A ?",
+            "intent": "grades_schema"
+        },
+        {
+            "text": "What is the gpa equivilant to an A+ ?",
+            "intent": "grades_schema"
+        },
+        {
+            "text": "What is the gpa equivilant to an A- ?",
+            "intent": "grades_schema"
+        },
+        {
+            "text": "What is the gpa equivilant to an B+ ?",
+            "intent": "grades_schema"
+        },
+        {
+            "text": "What is the gpa equivilant to an C ?",
+            "intent": "grades_schema"
+        },
+        {
+            "text": "What is the gpa equivilant to an D ?",
+            "intent": "grades_schema"
+        },
+        {
+            "text": "What is the gpa equivilant to an F ?",
+            "intent": "grades_schema"
+        },
+        {
+            "text": "What is the gpa equivilant to an D+ ?",
+            "intent": "grades_schema"
+        },
+        {
+            "text": "What is the gpa equivilant to an C- ?",
+            "intent": "grades_schema"
+        },
+        {
+            "text": "How is the gpa grade calculated?",
+            "intent": "grades_schema"
+        },
+        {
+            "text": "What is the guc grading schema?",
+            "intent": "grades_schema"
+        },
+        {
+            "text": "Where can I find internships as an undergrad?",
+            "intent": "finding_internships"
+        },
+        {
+            "text": "How can I get internships?",
+            "intent": "finding_internships"
+        },
+        {
+            "text": "How to find internships?",
+            "intent": "finding_internships"
+        },
+        {
+            "text": "How to get accepted in internships?",
+            "intent": "finding_internships"
+        },
+        {
+            "text": "Is it a must to do an internship?",
+            "intent": "internships_obligatory_or_not"
+        },
+        {
+            "text": "Are internships obligatory for all faculties ?",
+            "intent": "internships_obligatory_or_not"
+        },
+        {
+            "text": "Is there an excuse for not doing internships?",
+            "intent": "internships_obligatory_or_not"
+        },
+        {
+            "text": "Is it obligatory to do internships?",
+            "intent": "internships_obligatory_or_not"
+        },
+        {
+            "text": "How long do an internship has to be?",
+            "intent": "internships_duration_required"
+        },
+        {
+            "text": "What is the internships duration needed from an Engineering student?",
+            "intent": "internships_duration_required"
+        },
+        {
+            "text": "What is the internships duration needed from an MET student?",
+            "intent": "internships_duration_required"
+        },
+        {
+            "text": "What is the internships duration needed from an Appiled Arts student?",
+            "intent": "internships_duration_required"
+        },
+        {
+            "text": "What is the internships duration needed from a pharmacy student?",
+            "intent": "internships_duration_required"
+        },
+        {
+            "text": "What is the internships duration needed from a Management student?",
+            "intent": "internships_duration_required"
+        },
+        {
+            "text": "What to do after completing an internship?",
+            "intent": "internship_submission"
+        },
+        {
+            "text": "How to submit an internship?",
+            "intent": "internship_submission"
+        },
+        {
+            "text": "How to tell the university that I have completed an intenship?",
+            "intent": "internship_submission"
+        },
+        {
+            "text": "Where to submit the internship report?",
+            "intent": "internship_submission"
+        },
+        {
+            "text": "How to fill out and submit the internship report?",
+            "intent": "internship_submission"
+        },
+        {
+            "text": "How to avoid plagirirsm?",
+            "intent": "plagirism_policy"
+        },
+        {
             "text": "How to study for midterms?",
             "intent": "study_guide_exams"
         },
@@ -23,22 +211,6 @@
         {
             "text": "How to study for an exam?",
             "intent": "study_guide_exams"
-        },
-        {
-            "text": "Is it important to study from textbooks?",
-            "intent": "study_guide_textbooks"
-        },
-        {
-            "text": "How to study from a textbook?",
-            "intent": "study_guide_textbooks"
-        },
-        {
-            "text": "Where to get textbooks to study from?",
-            "intent": "study_guide_textbooks"
-        },
-        {
-            "text": "Are textbooks hard to study from?",
-            "intent": "study_guide_textbooks"
         },
         {
             "text": "How to study?",
@@ -199,38 +371,6 @@
         {
             "text": "What is the the summer semester duration?",
             "intent": "summer_general"
-        },
-        {
-            "text": "What clothes am I not allowed to wear?",
-            "intent": "guc_regulations_clothing"
-        },
-        {
-            "text": "Can I wear ripped jeans in GUC?",
-            "intent": "guc_regulations_clothing"
-        },
-        {
-            "text": "Can I wear cropped tops in GUC?",
-            "intent": "guc_regulations_clothing"
-        },
-        {
-            "text": "What are the clothes I can wear in GUC?",
-            "intent": "guc_regulations_clothing"
-        },
-        {
-            "text": "what are the general guc policies?",
-            "intent": "guc_regulations_general"
-        },
-        {
-            "text": "What are the rules I need to know?",
-            "intent": "guc_regulations_general"
-        },
-        {
-            "text": "What is the guc guidelines?",
-            "intent": "guc_regulations_general"
-        },
-        {
-            "text": "what are the guc regulations?",
-            "intent": "guc_regulations_general"
         },
         {
             "text": "How to apply for semester abroad in Berlin?",
